@@ -1,0 +1,122 @@
+body {
+  background-color: #01acc0;
+  background-image: url(../images/bg.png);
+  background-repeat: no-repeat;
+  font-family: sans, "Arial";
+  color: #333333;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.main{
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.werte{
+  width: 400px;
+  padding: 0px;
+  margin: 0;
+}
+
+#code{
+  width: 100%;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: block;
+  border: 2px solid #01acc0;
+  font-size: 2em;
+  border-radius: 5px;
+  text-align: center;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  padding: 0px;
+  line-height: 2.5em;
+  height: 2.5em;
+  color: #333333;
+}
+
+#option, #farbe{
+  width: 100%;
+  background-color: #9ACD32;
+  color: #ffffff;
+  font-weight: bold;
+  margin: auto;
+  margin-bottom: 20px;
+  border: 2px solid #01acc0;
+  font-size: 2em;
+  border-radius: 5px;
+  text-align: center;
+  text-align-last: center;
+  padding: 0px;
+  line-height: 2.5em;
+  height: 2.5em;
+}
+
+.options{
+  background-color: #9ACD32;
+  color: #ffffff;
+  font-weight: bold;
+  margin: auto;
+  margin-bottom: 20px;
+  border: 2px solid #01acc0;
+  font-size: 1em;
+  border-radius: 5px;
+  text-align: center;
+  text-align-last: center;
+  padding: 0px;
+  line-height: 2.5em;
+  height: 2.5em;
+}
+
+#hacken{
+  width: 100%;
+  background-color: #9ACD32;
+  color: #ffffff;
+  font-weight: bold;
+  margin: auto;
+  margin-bottom: 20px;
+  border: 2px solid #01acc0;
+  font-size: 2em;
+  border-radius: 5px;
+  text-align: center;
+  padding: 0px;
+  line-height: 2.5em;
+  height: 2.5em;
+  user-select: none;
+}
+
+.customsText{
+  width: 100%;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: block;
+  border: 2px solid #01acc0;
+  font-size: 2em;
+  border-radius: 5px;
+  text-align: center;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  padding: 0px;
+  line-height: 2.5em;
+  height: 2.5em;
+  color: #333333;
+}
+
+#customs{
+  display: none;
+}

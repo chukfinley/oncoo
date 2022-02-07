@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="icon" href="images/icon.png" type="image/png">
+  <title>Oncoo - Hack</title>
+
+</head>
+
+<body>
+  <div class="main">
+    <div class="werte">
+      <form>
+        <input type="text" id="code" name="code" placeholder="CODE" pattern="[a-zA-Z0-9-]{4,4}">
+        <select id="option">
+          <option class="options" value="preset" disabled selected>Option wählen</option>
+          <option class="options" value="custom">Custom</option>
+          <option class="options" value="penis">Penis</option>
+        </select>
+        <div id="customs">
+          <input type="number" class="customsText" id="anzahl" name="anzahl" placeholder="ANZAHL" min="0" step="1">
+          <input type="text" class="customsText" id="text" name="text" placeholder="TEXT">
+          <select id="farbe">
+            <option class="options" value="preset" disabled selected>Farbe wählen</option>
+            <option class="options" value="blau">Blau</option>
+            <option class="options" value="gelb">Gelb</option>
+            <option class="options" value="gruen">Grün</option>
+            <option class="options" value="weiss">Weiß</option>
+            <option class="options" value="rosa">Rosa</option>
+            <option class="options" value="rot">Rot</option>
+            <option class="options" value="gemischt">Gemischt</option>
+          </select>
+        </div>
+        <input type="submit" id="hacken" name="submit" value="Bestätigen">
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
